@@ -1,0 +1,137 @@
+@-webkit-keyframes shake {
+    50% {
+        -webkit-transform: rotate(-10deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(10deg);
+    }
+}
+
+@keyframes shake {
+    50% {
+        -webkit-transform: rotate(-10deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(10deg);
+    }
+}
+
+@keyframes rotation {
+    0% {
+        -webkit-transform: rotateY(0deg);
+    }
+
+    50% {
+        -webkit-transform: rotateY(180deg);
+    }
+
+    100% {
+        -webkit-transform: rotateY(360deg);
+    }
+}
+
+@keyframes diffuseaperture {
+    0% {
+        -webkit-transform: scale(1);
+        opacity: 0;
+    }
+
+    50% {
+        -webkit-transform: scale(2);
+        opacity: 0.8;
+    }
+
+    100% {
+        -webkit-transform: scale(3);
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes ripple {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(0.1, 0.1);
+    }
+
+    5% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        -webkit-transform: scale(1);
+    }
+}
+
+@-moz-keyframes ripple {
+    0% {
+        opacity: 0;
+        -moz-transform: scale(0.1, 0.1);
+    }
+
+    5% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        -moz-transform: scale(1);
+    }
+}
+
+@-o-keyframes ripple {
+    0% {
+        opacity: 0;
+        -o-transform: scale(0.1, 0.1);
+    }
+
+    5% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        -o-transform: scale(1);
+    }
+}
+
+@keyframes ripple {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(0.1, 0.1);
+        -moz-transform: scale(0.1, 0.1);
+        -ms-transform: scale(0.1, 0.1);
+        transform: scale(0.1, 0.1);
+    }
+
+    5% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+
+button {
+    width: auto;
+    border: 1px solid #ddd;
+    padding: 10px 20px;
+    margin: 10px 10px;
+    cursor: pointer;
+}
+
+.back-box {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    padding: 30px;
+}

@@ -1,0 +1,23 @@
+.home-layout-wrapper{
+  min-height: 100vh;
+  .header-wrapper{
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    .user-box{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 94px;
+      height: 40px;
+      box-sizing: border-box;
+      border-radius: 20px;
+      background-color: #001529;
+      color: #fff;
+      transition: all .2s ease-in-out;
+      cursor: pointer;
+      font-weight: bolder;
+    }
+  }
+}
