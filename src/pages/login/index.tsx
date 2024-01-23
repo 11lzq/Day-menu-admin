@@ -11,7 +11,7 @@ import { Form, useNavigate } from 'react-router-dom';
 
 const LoginPage =(props: any)=> {
     const navigate = useNavigate();
-
+      
     //前端模拟请求，本地缓存写入token
     const login = async (value: any) => {
         return new Promise((resolve, reject) => {
@@ -25,7 +25,6 @@ const LoginPage =(props: any)=> {
             }, 1000);
         })
     }
-
     // 提交按钮事件
     const onFinish = async (values: any) => {
         let res: any = await login(values);

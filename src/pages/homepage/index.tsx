@@ -12,10 +12,11 @@ import { homeTalentexpress } from '../../services/api'
 import './home.scss'
 
 function HomePage () {
-
+     
     //设置页面普通的state值
     const [count, setCount] = useState(0)
-
+   console.log(111111);
+   
     //获取路由对象
     const navigate = useNavigate();
 
